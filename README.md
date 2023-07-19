@@ -5,12 +5,11 @@ For a step-by-step guide and more context, please look at my blog post: https://
 This repository is the most minimal implementation of an LLM API possible, focusing on making this technology accessible to coders new to LLMs & APIs. The core libraries are `langchain` & `fastapi`. 
 
 For an example that is more comprehensive and adhering to best practices, I will soon share more examples.
-  * Minimal guide to serverless deployment without Ops: https://github.com/tleers/minimal-serverless-llm-deployment
-  * [TODO] A comprehensive, best practices guide with Ops: https://github.com/tleers/servelm
+  * Serverless LLM application deployment examples are currently being developed at https://github.com/tleers/serverless-llm-app-factory, extending the llm-api-starterkit to web deployment & alternative compute options
 
 # Quick-start
 
-There's three steps to starting the demo or doing development on this template.
+There's three steps to starting the demo or starting development with this template.
 
 1. Installation of general python package requirements/dependencies
 2. Selection of LLM model & dependencies
@@ -26,14 +25,14 @@ Tutorial was created using `Python 3.10`.
 pip install -r requirements.txt
 ```
 
-It is advised to at the very least install these requirements in a virtual environment. To create a virtual environment and install the requirements there, use the following:
+It is advised to install these requirements in a virtual environment. To create a virtual environment and install the requirements there, use the following:
 ```bash
 python3 -m venv venv
 . venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Ideally, we use dependency management with `poetry` for a smoother experience (see https://github.com/tleers/minimal-serverless-llm-deployment for an example). We ignore this additional complexity for now in this example.
+Ideally, we use dependency management with `poetry` for a smoother experience (see [https://github.com/tleers/minimal-serverless-llm-deployment](https://github.com/tleers/serverless-llm-app-factory) for an example). We ignore this additional complexity for now in this example.
 
 ## 2. LLM model preparation
 
